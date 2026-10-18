@@ -1,0 +1,37 @@
+{
+  "name": "pi-model-sync-provider",
+  "version": "1.0.0",
+  "description": "Sync one Pi provider's model list from its live /v1/models endpoint, enrich params from models.dev, and drop models the provider no longer serves.",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "models",
+    "models.dev",
+    "provider",
+    "openai-compatible"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "pi": {
+    "extensions": ["./extensions/model-sync.ts"]
+  },
+  "files": [
+    "extensions",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kalloer1/pi-model-sync-provider.git"
+  },
+  "homepage": "https://github.com/Kalloer1/pi-model-sync-provider#readme",
+  "bugs": {
+    "url": "https://github.com/Kalloer1/pi-model-sync-provider/issues"
+  }
+}

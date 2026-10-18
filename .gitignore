@@ -1,0 +1,5 @@
+node_modules/
+*.bak-*
+model-sync-modelsdev.json
+models.json
+.DS_Store
